@@ -1,4 +1,4 @@
-const Meta = GM_info.script || 
+const Meta = GM_info.script || {name: 'Sinject', version: '1.0'}
 const disabled_urls = ['about:blank', 'about:blank#blocked']
 if (disabled_urls.includes(window.location.href)) return;
 function openNewWin() {
